@@ -1,0 +1,649 @@
+@media screen and (max-width: 1199px) {
+
+    /* =================== nav-top =================== */
+
+    .nav-top {
+        height: 30px;
+    }
+
+    /* ================== navbar ==================== */
+
+    .navbar {
+        height: 70px;
+    }
+
+    .navbar .container .nav-menu {
+        top: 70px;
+        padding-top: 30px;
+    }
+
+    .navbar .container .logo a {
+        font-size: 28px;
+    }
+
+    .navbar .container .nav-menu{
+        padding: 8px;
+    }
+
+    .navbar .container .nav-menu .nav-category ul{
+        margin-top: -5%;
+    }
+    
+    .navbar .container .nav-menu .nav-category .nav-card-layout{
+        padding: 10px;
+    }
+
+    /* =================== banner =================== */
+
+    .banner {
+        height: 300px;
+        background-position: 40% center;
+    }
+
+    /* ====================== heading ===================== */
+
+    .heading .container .row h2 {
+        font-size: 30px;
+        width: 60%;
+        line-height: 1.5;
+    }
+
+    /* ================ content =================== */
+
+    .content .container .row .content-card .text-content {
+        justify-content: center;
+    }
+    
+    .content .container .row .content-card .text-content h3 {
+        width: 100%;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .content .container .row .content-card .text-content p {
+        font-size: 16px;
+    }
+
+    /* ================== thanking =================== */
+
+    .thanking .container .row h2 {
+        font-size: 20px;
+    }
+
+    /* ===================== footer-bottom ======================== */
+
+    .footer-bottom .container .row ul {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    /* ==================== navbar ==================== */
+
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar .container .nav-menu {
+        top: 60px;
+    }
+
+    /* ================== heading ==================== */
+
+    .heading .container .row h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    /* ==================== content ===================== */
+
+    .content {
+        height: 1200px;
+    }
+
+    .content .container .row .content-card .text-content p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .thanking .container .row h4 {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* =================== navbar ==================== */
+
+    .menu {
+        width: 15%;
+    }
+
+    .navbar .container .user-option {
+        width: 15%;
+    }    
+    
+    .navbar .container .nav-menu .nav-category .social-links{
+        width: 15%;
+        top: 88%;
+        left:6%;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card-layout {
+        padding: 0;
+    }
+
+    /* ==================== banner ====================== */
+
+    .banner .container .row .heading h1 {
+        font-size: 50px;
+    }
+
+    /* ================== heading ==================== */
+
+    .heading .container .row h2 {
+        font-size: 22px;
+    }
+
+    .heading .container .row p {
+        font-size: 16px;
+    }
+
+    /* ================= content =================== */
+
+    .content {
+        height: 700px;
+    }
+
+    .content .container .row .content-card .image-content {
+        display: none;
+    }
+
+    .content .container .row .content-card .text-content {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .content .container .row .content-card .text-content h3 {
+        text-align: center;
+    }
+
+    .content .container .row .content-card .text-content p {
+        text-align: center;
+    }
+
+     /* ====================== footer-top ======================= */
+
+     .footer-top .container .row .logo {
+        width: 15%;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 20px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 18px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 16px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom .container .row ul {
+        width: 100%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 16px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* ==================== navbar ==================== */
+
+    .menu-icon {
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 18%;
+    }
+
+    .navbar .container .logo a {
+        font-size: 22px;
+    }
+
+    .navbar .container .user-option {
+        width: 18%;
+    }
+
+    .navbar .container .nav-menu .nav-category {
+        padding: 15px;
+    }
+    
+    .navbar .container .nav-menu .nav-category ul {
+        width: 50%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li {
+        width: 80%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li a {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .navbar .container .nav-menu .nav-category .social-links{
+        width: 25%;
+        top: 88%;
+        left: 4%;
+        margin: 10px;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card-layout {
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu .nav-category #party-card {
+        display: none;
+    }
+
+    .navbar .container .nav-menu .nav-category #tee-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content .card-name {
+        /* text-align: center; */
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu .nav-category #tee-card .card-content {
+        text-align: center;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content button {
+        width: 100%;
+    }
+
+    /* ==================== banner ====================== */
+
+    .banner .container .row .heading h1 {
+        font-size: 40px;
+        letter-spacing: 20px;
+        font-weight: 900;
+    }
+
+    /* ================== heading ==================== */
+
+    .heading {
+        height: 350px;
+    }
+
+    .heading .container .row {
+        height: 65%;
+        width: 100%;
+    }
+
+    .heading .container .row h2 {
+        width: 80%;
+    }
+
+    .heading .container .row p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    /* =================== content ======================= */
+
+    .content {
+        height: 800px;
+    }
+
+    .content .container .row .content-card .text-content h3 {
+        text-align: center;
+    }
+
+    .content .container .row .content-card .text-content p {
+        text-align: center;
+    }
+
+    .thanking .container .row h4 {
+        width: 80%;
+        margin-top: 80px;
+    }
+
+    /* ====================== footer-top ======================= */
+
+    .footer-top {
+        height: 450px;
+    }
+
+    .footer-top .container .row .footer-menu {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu .head {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul {
+        align-items: start !important;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li {
+        width: 100% !important;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 18px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating .rating i {
+        font-size: 14px !important;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 16px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 150px;
+    }
+
+    .footer-bottom .container .row {
+        width: 90%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    /* ==================== banner ====================== */
+
+    .banner .container .row .heading h1 {
+        font-size: 35px;
+        letter-spacing: 15px;
+        font-weight: 900;
+    }
+
+    /* ================== heading ==================== */
+
+    .heading {
+        height: 320px;
+    }
+
+    .heading .container .row h2 {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .heading .container .row p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* =================== content ======================= */
+
+    .content {
+        height: 900px;
+    }
+
+    .content .container .row .content-card .text-content h3 {
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .content .container .row .content-card .text-content p {
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .thanking .container .row h4 {
+        width: 90%;
+        margin-top: 60px;
+        font-size: 14px;
+    }
+
+    /* ====================== footer-top ======================= */
+
+    .footer-top .container .row .logo {
+        width: 22%;
+    }
+
+    .footer-top .container .row .footer-menu {
+        padding-left: 20px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end {
+        width: 45%;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating .rating i {
+        font-size: 15px !important;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 15px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 15px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 150px;
+    }
+
+    .footer-bottom .container .row {
+        width: 100%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    /* ================= nav-top =================== */
+
+    .nav-top {
+        width: 100%;
+        height: 30px;
+    }
+
+    .nav-top .swiper-slide p {
+        font-size: 12px !important;
+    }
+
+    /* ==================== navbar ==================== */
+
+    .menu {
+        width: 25%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li a {
+        text-transform: uppercase;
+        color: black;
+        margin: 0;
+    }
+
+    .navbar .container .user-option {
+        width: 25%;
+        /* font-size: 16px; */
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-heading .head{
+        font-size: 16px;
+        text-align: center;    
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content .card-name{
+        font-weight: 700;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content button {
+        margin-top: 10px;
+    }
+    .navbar .container .user-option .search {
+        font-size: 18px;
+    }
+
+    .navbar .container .user-option .cart {
+        font-size: 18px;
+    }
+
+    .navbar .container .user-option .account a {
+        font-size: 18px;
+    }
+
+    /* ==================== banner ====================== */
+
+    .banner {
+        height: 220px;
+    }
+
+    /* ================== heading ==================== */
+
+    .heading {
+        height: 400px;
+    }
+
+    /* =================== content ======================= */
+
+    .content {
+        height: 1150px;
+    }
+
+     /* ====================== footer-top ======================= */
+
+     .footer-top .container{
+        padding: 0;
+     }
+     
+     .footer-top .container .row .footer-menu {
+        padding: 10px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu .head {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 14px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 250px;
+    }
+
+    .footer-bottom .container .row ul {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bottom .container .row ul li {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .footer-bottom .container .row p {
+        height: 20%;
+        font-size: 13px;
+    }
+
+}

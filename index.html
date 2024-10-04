@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================== meta section =========================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fashion-accessories-apparels">
+
+    <!-- =========================== title ============================ -->
+
+    <title>UMAVIK</title>
+    <link rel="icon" type="image/x-icon" href="./IMG/">
+
+    <!-- ====================== css CDN link ========================= -->
+
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <!-- ====================== responsive css CDN link ======================= -->
+
+    <link rel="stylesheet" href="./CSS/responsive.css">
+
+    <!-- ====================== font awesome CDN link =========================== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ======================== swiper CDN link ============================== -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- ======================= jquery CDN link ======================== -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <!-- ====================== header =========================== -->
+
+    <header>
+
+        <!-- =========================== nav-top ============================ -->
+
+        <div class="nav-top">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p>Festive Sale coming soon</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Buy for 8888 and get one of your favorites free</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!-- =========================== navbar ============================ -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-menu">
+                    <div class="nav-category">
+                        <ul>
+                            <!-- <li><a href="#clothing">Clothing</a></li>
+                            <li><a href="#accessories">Accessories</a></li>
+                            <li><a href="#footwear">Footwear</a></li>
+                            <li><a href="#beauty">Beauty Products</a></li> -->
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./login.html">Log In</a></li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="http://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                        <div class="nav-card-layout">
+                            <div class="nav-card" id="tee-card">
+                                <div class="card-heading">
+                                    <p class="head">Tees for daily use</p>
+                                </div>
+                                <div class="card-image">
+                                    <figure class="tee-nav">
+                                        <img src="./IMG/tee-nav.webp" alt="t-shirts">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-name">Unisex T-Shirts</p>
+                                    <p class="desc">Embrace your unique spirit with Umavik's vibrant tee collection!
+                                        Each
+                                        design
+                                        tells a story, inspired by the beauty of the world around us.</p>
+                                    <button type="button" id="tee-collection">View Collection <i
+                                            class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="nav-card" id="party-card">
+                                <div class="card-heading">
+                                    <p class="head">Go for the party</p>
+                                </div>
+                                <div class="card-image">
+                                    <figure class="tee-nav">
+                                        <img src="./IMG/party-nav.webp" alt="t-shirts">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="card-name">Partywears</p>
+                                    <p class="desc">Elevate your evening style with Umavik's stunning partywear
+                                        collection!
+                                        Designed to make you shine, these statement pieces blend glamour,
+                                        sophistication,
+                                        and
+                                        modern flair.</p>
+                                    <button type="button" id="party-collection">view Collection <i
+                                            class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <i class="menu-icon fa solid fa-bars"></i>
+                </div>
+                <div class="logo">
+                    <a href="./index.html" aria-label="Home">UMAVIK</a>
+                </div>
+                <div class="user-option">
+                    <div class="search">
+                        <form action="" class="search-bar">
+                            <input type="text" placeholder="search more">
+                        </form>
+                        <i class="search-btn fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="account">
+                        <a href="#" aria-label="log-in"><i class="user-ico fa-solid fa-user"></i></a>
+                        <div class="log-in-form">
+                            <div class="container">
+                                <div class="heading">
+                                    <a href="#home" class="close" aria-label="close"><i class="fa-solid fa-xmark"></i></a>
+                                    <p class="head">Sign in</p>
+                                    <p>Become a member — don’t miss out on deals, offers, discounts and bonus vouchers.
+                                    </p>
+                                </div>
+                                <form action="" class="log-in">
+                                    <div class="email">
+                                        <label for="mail-log-in">Email</label>
+                                        <input type="email" id="mail-log-in">
+                                    </div>
+                                    <div class="password">
+                                        <label for="pass-log-in">Password</label>
+                                        <input type="password" id="pass-log-in">
+                                    </div>
+                                    <div class="help-btn">
+                                        <div class="remember">
+                                            <input type="checkbox" id="check-remember" value="remember">
+                                            <label for="check-remember">Remember me</label>
+                                        </div>
+                                        <div class="forgot-password">
+                                            <a href="#forgot">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="sign-in-register-btn">
+                                    <button class="sign-in" type="button" id="sign-in-btn-1">Sign in</button>
+                                    <button class="sign-up" type="button" id="sign-up-btn-1">Become a member</button>
+                                </div>
+                                <a href="#membership" class="member-head">UMAVIK Membership</a>
+                            </div>
+                        </div>
+                        <div class="sign-up-form">
+                            <div class="container">
+                                <div class="heading">
+                                    <a href="#home" class="close" aria-label="close"><i class="fa-solid fa-xmark"></i></a>
+                                    <p class="head">Become an UMAVIK member</p>
+                                    <p>Become a member — don’t miss out on deals, offers, discounts and bonus vouchers.
+                                    </p>
+                                </div>
+                                <form action="" class="sign-up">
+                                    <div class="email">
+                                        <label for="mail-sign-up">Email</label>
+                                        <input type="email" id="mail-sign-up" required>
+                                    </div>
+                                    <div class="password">
+                                        <label for="pass-sign-up">Password</label>
+                                        <input type="password" id="pass-sign-up" required>
+                                    </div>
+                                    <div class="dob">
+                                        <label for="dob">Date Of Birth</label>
+                                        <input type="date" id="dob" required>
+                                    </div>
+                                    <div class="f-name">
+                                        <label for="f-name">First Name</label>
+                                        <input type="text" id="f-name" required>
+                                    </div>
+                                    <div class="l-name">
+                                        <label for="l-name">Last Name</label>
+                                        <input type="text" id="l-name" required>
+                                    </div>
+                                    <div class="phone">
+                                        <label for="phone">Mobile No.</label>
+                                        <input type="number" id="phone" required>
+                                    </div>
+                                    <div class="help-btn">
+                                        <div class="agree-check">
+                                            <input type="checkbox" id="check-offer-notification" value="remember">
+                                            <label for="check-offer-notification">Yes, email me offers, style updates,
+                                                and special invites
+                                                to sales and events.</label>
+                                        </div>
+                                        <div class="disclaim">
+                                            <p>By clicking ‘Become a member’, I agree to the UMAVIK Membership <a
+                                                    href="#terms">Terms and
+                                                    conditions</a>.To give you the full membership experience, we will
+                                                process
+                                                your personal data in accordance with the UMAVIK's <a
+                                                    href="#privacy">Privacy Notice</a>.</p>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="sign-up-register-btn">
+                                    <button class="sign-up" type="button" id="sign-up-btn-2">Become a member</button>
+                                    <button class="sign-in" type="button" id="sign-in-btn-2">Sign in</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================== main ======================== -->
+
+    <main>
+
+        <!-- ========================== banner ========================== -->
+
+        <section class="banner">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="winter">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./IMG/winter-sale.webp" alt="winter-sale">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <h1>Winter Sale</h1>
+                                <h2>50% off on all products</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" id="women">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./IMG/women-sale.webp" alt="winter-sale">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <h1>70% off on women's fashion</h1>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" id="kid">
+                            <div class="card-image">
+                                <figure>
+                                    <img src="./IMG/kid-sale.webp" alt="winter-sale">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <h1>Big Fun, Little Prices</h1>
+                                <p>Don't miss out!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================== announcements ============================== -->
+
+        <section class="announcements">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="luxe">
+                            <h2>The
+                                <span class="capital">Luxe Collection</span>
+                            </h2>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="swiper-slide" id="elegance">
+                            <h2>Royal Radiance Collection</h2>
+                            <p>Remarkable You, Today, Tomorrow</p>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================== footwear ==================== -->
+
+        <section class="footwear">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="women">
+                            <h3>For
+                                <span class="capital">her</span>
+                            </h3>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="swiper-slide" id="men">
+                            <h3>For
+                                <span class="capital">him</span>
+                            </h3>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="swiper-slide" id="women">
+                            <h3>For
+                                <span class="capital">her</span>
+                            </h3>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="swiper-slide" id="men">
+                            <h3>For
+                                <span class="capital">him</span>
+                            </h3>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================== collection list =============================== -->
+
+        <section class="clothing">
+            <div class="row">
+                <div class="card" id="men">
+                    <div class="card-image">
+                        <figure class="front">
+                            <img src="./IMG/men.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h4>Men's Clothing</h4>
+                        <button type="button">View Collection <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="card" id="women">
+                    <div class="card-image">
+                        <figure class="front">
+                            <img src="./IMG/women-col.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h4>Women's Clothing</h4>
+                        <button type="button">View Collection <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="card" id="kids">
+                    <div class="card-image">
+                        <figure class="front">
+                            <img src="./IMG/kids-ban.webp" alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h4>Kids Collection</h4>
+                        <button type="button">View Collection <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================== collection duo ============================== -->
+
+        <section class="collection-duo">
+            <div class="row">
+                <div class="collection-part" id="part-1">
+                    <div class="card-video">
+                        <video autoplay loop>
+                            <source src="./VIDEO/bag-shoot.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="card-content">
+                        <h3>Midnight Opulence</h3>
+                        <button type="button" aria-label="shop-now">Bags<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="collection-part" id="part-2">
+                    <div class="card-video">
+                        <video autoplay loop>
+                            <source src="./VIDEO/perfume-vd-1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="card-content">
+                        <h3>Celestial Aura</h3>
+                        <button type="button" aria-label="shop-now">Perfumes<i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================== email-newsletter ============================= -->
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Subscribe to our mails</h2>
+                        <p>Exclusive discounts and value rich mails. No spam, we promise. Opt out any time you like</p>
+                    </div>
+                    <div class="email-form">
+                        <form action="">
+                            <input type="email" id="email" placeholder="E-mail" required>
+                            <button type="button" aria-label="subscribe"><i
+                                    class="submit-ico fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <p class="complete">Thanks for subscribing!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= about =============================== -->
+
+        <section class="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="about-card" id="mission">
+                                    <h2>Our Mission</h2>
+                                    <p>At UMAVIK, we're dedicated to helping our customers unlock their unique fashion
+                                        identity. Our mission is to provide stylish, affordable, and high-quality
+                                        accessories that
+                                        make a statement, spark conversations, and bring people together.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="about-card" id="story">
+                                    <h2>Our Story</h2>
+                                    <p>At UMAVIK, we believe that fashion is a form of self-expression, and our
+                                        accessories
+                                        are designed to help you tell your unique story. Inspired by the beauty of
+                                        individuality,
+                                        our founder set out to create a brand that celebrates creativity, inclusivity,
+                                        and
+                                        sustainability. With every piece, we aim to empower you to express yourself
+                                        authentically
+                                        and live life to the fullest. Join us on this journey of self-discovery and
+                                        style.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="about-card" id="what-we-do">
+                                    <h2>What We Do</h2>
+                                    <p>We design and curate unique, high-quality accessories that inspire
+                                        self-expression and
+                                        individuality. From statement pieces to everyday essentials, our collections are
+                                        crafted to
+                                        help you tell your story and showcase your personal style. With a focus on
+                                        sustainability
+                                        and inclusivity, we're dedicated to providing fashion that's both beautiful and
+                                        responsible.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= reviews =========================== -->
+
+        <section class="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>What our customers are saying:</h2>
+                    </div>
+                    <div class="content">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./IMG/customer.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Tanmoy Kr. Ghosh</h3>
+                                        <p><strong>Best customer service ever!</strong> I had an issue with my order
+                                            from [Brand Name]
+                                            and their customer service team was amazing. They responded to my email
+                                            right away and resolved the issue quickly and efficiently. The product
+                                            itself is also great - I purchased the 'Gia' earrings and they're so stylish
+                                            and well-made. I'll definitely be shopping from UMAVIK again in the
+                                            future.</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./IMG/customer.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Debjit Dey</h3>
+                                        <p><strong>Best purchase I've made all year!</strong> I've never been one to
+                                            write reviews, but
+                                            I had to for UMAVIK. The 'Ruby' ring I purchased is absolutely
+                                            stunning. The quality is exceptional and it's so comfortable to wear. I've
+                                            received so many compliments and I feel like it's really elevated my style
+                                            game. Thank you, UMAVIK !</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./IMG/customer.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Sourav Dey</h3>
+                                        <p><strong>My new favorite accessory!</strong> I've been looking for a stylish
+                                            and affordable
+                                            belt, and UMAVIK delivered! The 'Bella' belt is so comfortable and
+                                            adds the perfect touch to any outfit. I've worn it every day since I got it
+                                            and have received so many compliments.</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./IMG/customer.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Dipankar Pal</h3>
+                                        <p><strong>Love my new statement earrings!</strong> I recently purchased the
+                                            'Aurora' earrings from UMAVIK and I'm absolutely obsessed! The quality is
+                                            top-notch and
+                                            they're so stylish. I've received so many compliments already. The packaging
+                                            was also really cute and made it feel like a special treat.</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./IMG/customer.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Soumik Mondal</h3>
+                                        <p><strong>Fast shipping and great quality!</strong> I was blown away by how
+                                            quickly I received
+                                            my order from UMAVIK. The 'Luna' necklace I purchased is gorgeous and
+                                            the quality is great.</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="write-review">
+                            <h3>Write a Review</h3>
+                            <p>Have you purchased from UMAVIK recently? We'd love to hear about your experience!
+                                Please take a moment to write a review and let us know what you think of our products.
+                            </p>
+                            <button class="write-review-btn">Write a Review</button>
+                            <button class="cancel-btn">Cancel</button>
+                        </div>
+                        <div class="review-box">
+                            <form action="">
+                                <input type="text" placeholder="Write your review">
+                            </form>
+                            <div class="rating">
+                                <i class="rating-icon fa-solid fa-star"></i>
+                                <i class="rating-icon fa-solid fa-star"></i>
+                                <i class="rating-icon fa-solid fa-star"></i>
+                                <i class="rating-icon fa-solid fa-star"></i>
+                                <i class="rating-icon fa-solid fa-star"></i>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================= footer ============================ -->
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <img src="./IMG/UMAVIK-BLK.webp" alt="footer-logo">
+                    </div>
+                    <div class="footer-menu">
+                        <div class="footer-sub-menu" id="about-menu">
+                            <p class="head">About Us</p>
+                            <ul>
+                                <li><a href="#story">Our Story</a></li>
+                                <li><a href="#store">Store Locator</a></li>
+                                <li><a href="#enquiry">Enquiries</a></li>
+                                <li><a href="#careers">Careers</a></li>
+                                <li><a href="#reviews">Reviews</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-sub-menu" id="support-menu">
+                            <p class="head">Support</p>
+                            <ul>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="#shipping">Shipping</a></li>
+                                <li><a href="#returns">Returns</a></li>
+                                <li><a href="#guide">Size Guide</a></li>
+                                <li><a href="#status">Order Status</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-sub-menu" id="help-menu">
+                            <p class="head">Need Help?</p>
+                            <ul>
+                                <li><a href="#chat">Live Chat</a></li>
+                                <li><a href="#contact-us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-menu-end">
+                        <div class="social-menu">
+                            <ul>
+                                <li><a href="https://www.instagram.com/" class="footer-ico" id="instagram-btn"
+                                        aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/" class="footer-ico" id="facebook-btn"
+                                        aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://https://twitter.com/?lang=en" class="footer-ico" id="twitter-btn"
+                                        aria-label="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                </li>
+                                <li><a href="https://youtube.com/" class="footer-ico" id="youtube-btn"
+                                        aria-label="youtube"><i class="fa-brands fa-youtube"></i></a>
+                                </li>
+                                <li><a href="https://in.pinterest.com" class="footer-ico" id="pinterest-btn"
+                                        aria-label="pinterest"><i class="insta fa-brands fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="review-data">
+                            <div class="footer-rating">
+                                <p>5.0</p>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p>Customer Reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li><a href="#terms">Terms</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#information">Do not sell my information</a></li>
+                    </ul>
+                    <p>&copy; 2024 UMAVIK. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== javascript ===================== -->
+
+    <script src="./JS/script.jquery.js"></script>
+
+    <!-- ==================== nav-top swiper ======================= -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".nav-top .mySwiper", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+    <!-- ================= about-swiper ================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".about .mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <script src="./JS/script.jquery.js"></script>
+
+    <!-- ====================== nav-menu ======================= -->
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(this).toggleClass("fa-xmark")
+                $(".nav-menu").fadeToggle(300)
+                $("main").fadeToggle(400)
+                $("footer").fadeToggle(400);
+            })
+        });
+    </script>
+
+    <!-- ==================== search-bar ===================== -->
+
+    <script>
+        $(document).ready(function () {
+            $(".search-btn").click(function () {
+                $(".search-bar").fadeToggle(500);
+            })
+        });
+    </script>
+
+    <!-- ================== submit-ico ==================== -->
+
+    <script>
+        $(document).ready(function () {
+            $(".submit-ico").click(function () {
+                $(this).addClass("fa-check")
+                $(".complete").show();
+            })
+        })
+    </script>
+
+    <!-- ================== write-review ====================== -->
+
+    <script>
+        $(document).ready(function () {
+            $(".write-review-btn").click(function () {
+                $(".review-box").fadeToggle();
+            });
+        })
+    </script>
+
+    <!-- ================== review swiper js ==================== -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".reviews .mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                350: {
+                    slidesPerView: 1.2,
+                },
+                481: {
+                    slidesPerView: 1.5,
+                },
+                575: {
+                    slidesPerView: 1.5,
+                },
+                767: {
+                    slidesPerView: 2,
+                },
+                991: {
+                    slidesPerView: 2.5
+                },
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+
+    <!-- ==================== navbar-scroll-top ===================== -->
+
+
+
+    <!-- ==================== rating ===================== -->
+
+    <script>
+
+        $(document).ready(function () {
+            let counter = 0;
+            $(".rating-icon").click(function () {
+                if (counter === 0) {
+                    $(this).css("color", "yellow");
+                    counter = 1;
+                }
+                else {
+                    $(this).css("color", "rgb(171, 171, 171)");
+                    counter = 0;
+                }
+            });
+        });
+    </script>
+
+    <!-- ===================== banner-swiper ===================== -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".banner .mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                pauseOnMouseEnter: false,
+            }
+        });
+    </script>
+
+    <!-- ===================== clothing-swiper ====================== -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".clothing .mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".footwear .mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                pauseOnMouseEnter: true,
+            },
+            loop: true,
+            breakpoints: {
+                350: {
+                    slidesPerView: 1,
+                },
+                575: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+
+    <!-- ================= announcements swiper ==================== -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".announcements .mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>

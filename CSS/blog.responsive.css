@@ -1,0 +1,719 @@
+@media screen and (max-width: 1199px) {
+
+     /* =================== nav-top =================== */
+
+     .nav-top {
+        height: 30px;
+    }
+
+    /* ================== navbar ==================== */
+
+    .navbar {
+        height: 70px;
+    }
+
+    .navbar .container .nav-menu {
+        top: 70px;
+        padding-top: 30px;
+    }
+
+    .navbar .container .logo a {
+        font-size: 28px;
+    }
+
+    .navbar .container .nav-menu{
+        padding: 8px;
+    }
+
+    .navbar .container .nav-menu .nav-category ul{
+        margin-top: -5%;
+    }
+    
+    .navbar .container .nav-menu .nav-category .nav-card-layout{
+        padding: 10px;
+    }
+
+    /* =================== banner =================== */
+
+    .banner {
+        height: 300px;
+        background-position: 40% center;
+    }
+    
+     /* ====================== heading ===================== */
+
+     .heading .container .row h2 {
+        font-size: 30px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    /* ================= content ===================== */
+
+    .content .container .row #conclusion {
+        padding: 50px 0;
+        height: 25%;
+    }
+
+    /* =================== footer-top ==================== */
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li {
+        padding-bottom: 20px;
+    }
+
+     /* ===================== footer-bottom ======================== */
+
+     .footer-bottom .container .row ul {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+     /* ==================== navbar ==================== */
+
+     .navbar {
+        height: 60px;
+    }
+
+    .navbar .container .nav-menu {
+        top: 60px;
+    }
+
+    /* ===================== banner ===================== */
+
+    .banner .container .row h1{
+        font-size: 60px;
+        letter-spacing: 20px;
+    }
+   
+    /* ================== heading ==================== */
+
+    .heading .container .row h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    /* ==================== content ===================== */
+
+    .content .container .row .blog-highlights h3{
+        font-size: 20px;
+    }
+
+    .content .container .row .blog-highlights p{
+        font-size: 16px;
+    }
+
+    .content .container .row #conclusion h3 {
+        font-size: 28px;
+    }
+
+    .content .container .row #conclusion p{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .menu {
+        width: 15%;
+    }
+
+    .navbar .container .user-option {
+        width: 15%;
+    }
+    
+    .navbar .container .nav-menu .nav-category .social-links{
+        width: 15%;
+        top: 88%;
+        left:6%;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card-layout {
+        padding: 0;
+    }
+
+     /* ==================== banner ====================== */
+
+     .banner .container .row h1 {
+        font-size: 50px;
+        letter-spacing: 20px;
+    }
+
+     /* ================== heading ==================== */
+
+     .heading {
+        height: 300px;
+     }
+
+     .heading .container .row{
+        justify-content: center;
+     }
+     
+     .heading .container .row h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .heading .container .row p {
+        font-size: 14px;
+    }
+
+    /* ================= content =================== */
+
+    .content {
+        height: 1700px;
+    }
+
+    .content .container .row .blog-highlights h3{
+        font-size: 18px;
+    }
+
+    .content .container .row .blog-highlights p{
+        font-size: 16px;
+    }
+      /* ====================== footer-top ======================= */
+
+      .footer-top .container .row .logo {
+        width: 15%;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 20px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 18px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 16px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom .container .row ul {
+        width: 100%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 16px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+     /* ==================== navbar ==================== */
+
+     .menu-icon {
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 18%;
+    }
+
+    .navbar .container .logo a {
+        font-size: 22px;
+    }
+
+    .navbar .container .user-option {
+        width: 18%;
+    }
+
+    .navbar .container .nav-menu .nav-category {
+        padding: 15px;
+    }
+    
+    .navbar .container .nav-menu .nav-category ul {
+        width: 50%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li {
+        width: 80%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li a {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .navbar .container .nav-menu .nav-category .social-links{
+        width: 25%;
+        top: 88%;
+        left: 4%;
+        margin: 10px;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card-layout {
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu .nav-category #party-card {
+        display: none;
+    }
+
+    .navbar .container .nav-menu .nav-category #tee-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content .card-name {
+        /* text-align: center; */
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu .nav-category #tee-card .card-content {
+        text-align: center;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content button {
+        width: 100%;
+    }
+
+     /* ==================== banner ====================== */
+
+     .banner {
+        height: 220px;
+     }
+
+     .banner .container .row h1 {
+        font-size: 40px;
+        letter-spacing: 20px;
+        font-weight: 900;
+    }
+
+     /* ================== heading ==================== */
+
+     .heading {
+        height: 280px;
+    }
+
+    .heading .container .row {
+        height: 100%;
+        width: 100%;
+    }
+
+    .heading .container .row h2 {
+        width: 90%;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .heading .container .row p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* =================== content ======================= */
+
+    .content {
+        height: 1600px;
+    }
+
+    .content .container .row .blog-highlights {
+        height: 18%;
+    }
+
+    .content .container .row .blog-highlights h3{
+        font-size: 16px;
+    }
+
+    .content .container .row .blog-highlights p{
+        font-size: 14px;
+    }
+
+    .content .container .row #conclusion h3{
+        font-size: 24px;
+    }
+
+    .content .container .row #conclusion p{
+        font-size: 14px;
+    }
+
+     /* ====================== footer-top ======================= */
+
+     .footer-top {
+        height: 450px;
+    }
+
+    .footer-top .container .row .footer-menu {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu .head {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul {
+        align-items: start !important;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li {
+        width: 100% !important;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 18px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating .rating i {
+        font-size: 14px !important;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 16px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 150px;
+    }
+
+    .footer-bottom .container .row {
+        width: 90%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+     /* ==================== banner ====================== */
+
+     .banner {
+        height: 200px;
+     }
+
+     .banner .container .row h1 {
+        font-size: 35px;
+        letter-spacing: 15px;
+        font-weight: 900;
+    }
+
+     /* ================== heading ==================== */
+
+     .heading {
+        height: 280px;
+    }
+
+    .heading .container .row {
+        height: 100%;
+        width: 100%;
+    }
+
+    .heading .container .row h2 {
+        width: 90%;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .heading .container .row p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* =================== content ======================= */
+
+    .content {
+        height: 1800px;
+    }
+
+    .content .container .row .blog-highlights {
+        height: 20%;
+    }
+
+    .content .container .row .blog-highlights h3{
+        font-size: 16px;
+    }
+
+    .content .container .row .blog-highlights p{
+        font-size: 14px;
+    }
+
+    .content .container .row #conclusion h3{
+        font-size: 24px;
+    }
+
+    .content .container .row #conclusion p{
+        font-size: 14px;
+    }
+
+    /* ====================== footer-top ======================= */
+
+    .footer-top .container .row .logo {
+        width: 22%;
+    }
+
+    .footer-top .container .row .footer-menu {
+        padding-left: 20px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu .head{
+        line-height: 1.5;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end {
+        width: 45%;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating .rating i {
+        font-size: 15px !important;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 15px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 15px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 150px;
+    }
+
+    .footer-bottom .container .row {
+        width: 100%;
+    }
+
+    .footer-bottom .container .row ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom .container .row p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+     /* ================= nav-top =================== */
+
+     .nav-top {
+        width: 100%;
+        height: 30px;
+    }
+
+    .nav-top .swiper-slide p {
+        font-size: 12px !important;
+    }
+
+    /* ==================== navbar ==================== */
+
+    .menu {
+        width: 25%;
+    }
+
+    .navbar .container .nav-menu .nav-category ul li a {
+        text-transform: uppercase;
+        color: black;
+        margin: 0;
+    }
+
+    .navbar .container .user-option {
+        width: 25%;
+        /* font-size: 16px; */
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-heading .head{
+        font-size: 16px;
+        text-align: center;    
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content .card-name{
+        font-weight: 700;
+    }
+
+    .navbar .container .nav-menu .nav-category .nav-card .card-content button {
+        margin-top: 10px;
+    }
+    .navbar .container .user-option .search {
+        font-size: 18px;
+    }
+
+    .navbar .container .user-option .cart {
+        font-size: 18px;
+    }
+
+    .navbar .container .user-option .account a {
+        font-size: 18px;
+    }
+
+     /* ==================== banner ====================== */
+
+     .banner {
+        height: 180px;
+    }
+
+    .banner .container .row h1 {
+        font-size: 35px;
+        letter-spacing: 15px;
+        font-weight: 900;
+    }
+
+     /* ================== heading ==================== */
+
+     .heading {
+        height: 340px;
+    }
+
+    .heading .container .row h2 {
+        width: 95%;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .heading .container .row p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+     /* =================== content ======================= */
+
+     .content {
+        height: 2200px;
+    }
+
+    .content .container .row {
+        width: 95%;
+    }
+
+    .content .container .row .blog-highlights {
+        height: 20%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content .container .row .blog-highlights h3{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .content .container .row .blog-highlights p{
+        font-size: 14px;
+    }
+
+    .content .container .row #conclusion h3{
+        font-size: 24px;
+    }
+
+    .content .container .row #conclusion p{
+        font-size: 14px;
+    }
+
+      /* ====================== footer-top ======================= */
+
+      .footer-top .container{
+        padding: 0;
+     }
+     
+     .footer-top .container .row .footer-menu {
+        padding: 10px;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu .head {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-top .container .row .footer-menu-end .social-menu ul li a {
+        font-size: 16px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+        font-size: 14px;
+    }
+
+    .footer-top .container .row .footer-menu-end .review-data p {
+        font-size: 14px;
+    }
+
+    /* ======================= footer-bottom ======================== */
+
+    .footer-bottom {
+        height: 250px;
+    }
+
+    .footer-bottom .container .row ul {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bottom .container .row ul li {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .footer-bottom .container .row p {
+        height: 20%;
+        font-size: 13px;
+    }
+
+}
