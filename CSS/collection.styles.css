@@ -1,0 +1,1807 @@
+/* ======================= FONT LINKS ========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* ======================= common styling ========================= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0px 20px;
+}
+
+section,
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700px;
+    font-weight: 600;
+}
+
+button {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-image {
+    cursor: pointer;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating i {
+    padding: 5px;
+    color: rgb(255, 205, 42);
+}
+
+strong {
+    display: block !important;
+    margin-bottom: 15px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+/* ========================= home-page-start ============================== */
+
+/* ===================== header ===================== */
+
+header {
+    position: relative;
+}
+
+/* ======================== nav-top ======================== */
+
+.nav-top {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    z-index: 100; */
+}
+
+.nav-top .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================= swiper js styling ========================= */
+
+.nav-top .swiper {
+    width: 100%;
+    height: 100%;
+    background-color: transparent !important;
+}
+
+.nav-top .swiper .swiper-wrapper {
+    width: 100% !important;
+}
+
+.nav-top .swiper-slide {
+    text-align: center;
+    font-size: 14px !important;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-top .swiper-slide p {
+    display: block;
+    color: white !important;
+    text-align: center !important;
+    letter-spacing: 1px !important;
+}
+
+.nav-top .swiper-pagination {
+    display: none !important;
+}
+
+/* ======================= navbar ======================= */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* position: absolute;
+    top: 40px;
+    z-index: 100; */
+}
+
+.navbar .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .container .nav-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    left: 0%;
+    top: 90px;
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.navbar .container .nav-menu .nav-category {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+
+.navbar .container .nav-menu .nav-category ul {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.navbar .container .nav-menu .nav-category ul li {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+}
+
+.navbar .container .nav-menu .nav-category ul li a {
+    text-transform: uppercase;
+    color: black;
+}
+
+.navbar .container .nav-menu .nav-category .social-links {
+    width: 10%;
+    position: absolute;
+    top: 90%;
+    left: 8.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container .nav-menu .nav-category .social-links a {
+    font-size: 18px;
+    color: black;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card-layout {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 25px 0;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card-layout .nav-card {
+    width: 48%;
+    height: 60% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-heading {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-heading .head {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-image {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-image .tee-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-image .tee-nav img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-content .card-name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-content .desc {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.navbar .container .nav-menu .nav-category .nav-card .card-content button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.menu {
+    width: 10%;
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar .container .logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .logo a {
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    /* filter: drop-shadow(0 0 4px #ffffff80); */
+    text-shadow: 2px 4px white;
+    letter-spacing: 2px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .container .user-option {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .container .user-option .search {
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .container .user-option .search .search-bar {
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    top: 100%;
+    left: 10%;
+    display: none;
+    z-index: 500;
+    margin-top: 5px;
+}
+
+.navbar .container .user-option .search form input {
+    width: 100%;
+    height: 80%;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .user-option .search form input[type=text] {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.navbar .container .user-option .search form input::placeholder {
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    color: black;
+    opacity: 0.7;
+}
+
+.navbar .container .user-option .cart {
+    font-size: 20px;
+    color: black;
+}
+
+.navbar .container .user-option .account a {
+    font-size: 20px;
+    color: black;
+}
+
+/* ================= log-in-form ================= */
+
+.navbar .account .log-in-form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 25%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(216, 216, 216));
+    padding: 40px 0;
+    display: none;
+    max-height: 520px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .account .log-in-form .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+
+}
+
+.navbar .account .log-in-form .heading {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.navbar .account .log-in-form .heading .close {
+    position: absolute;
+    left: 105%;
+    top: -20%;
+}
+
+.navbar .account .log-in-form .heading .head {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.navbar .account .log-in-form .heading p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.navbar .account .log-in-form .log-in {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .account .log-in-form .log-in .email {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .log-in-form .log-in .email label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .log-in-form .log-in .email input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .log-in-form .log-in .password {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .log-in-form .log-in .password label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .log-in-form .log-in .password input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .log-in-form .log-in .help-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .account .log-in-form .log-in .help-btn .remember {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar .account .log-in-form .log-in .help-btn .remember input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.navbar .account .log-in-form .log-in .help-btn .remember label {
+    font-size: 16px;
+}
+
+.navbar .account .log-in-form .log-in .help-btn .forgot-password a {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.navbar .account .sign-in-register-btn {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.navbar .account .sign-in-register-btn .sign-in {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 78%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.navbar .account .sign-in-register-btn .sign-up {
+    background-color: white;
+    width: 78%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.navbar .account .member-head {
+    font-size: 14px !important;
+}
+
+.navbar .account .sign-up-form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: center !important;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 25%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(216, 216, 216));
+    padding: 40px 0;
+    display: none;
+    max-height: 520px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+.navbar .account .sign-up-form .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+}
+
+.navbar .account .sign-up-form .heading {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.navbar .account .sign-up-form .heading .close {
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+.navbar .account .sign-up-form .heading .head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.navbar .account .sign-up-form .heading p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.navbar .account .sign-up-form .sign-up {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .account .sign-up-form .sign-up .email {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .email label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .email input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .sign-up-form .sign-up .password {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .password label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .password input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .sign-up-form .sign-up .f-name {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .f-name label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .f-name input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .sign-up-form .sign-up .dob {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .dob label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .dob input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .sign-up-form .sign-up .l-name {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .l-name label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .l-name input {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar .account .sign-up-form .sign-up .phone {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .phone label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .phone input {
+    width: 100%;
+    height: 50px;
+}
+
+
+.navbar .account .sign-up-form .sign-up .help-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .account .sign-up-form .sign-up .help-btn .agree-check {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar .account .sign-up-form .sign-up .help-btn .agree-check input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.navbar .account .sign-up-form .sign-up .help-btn .agree-check label {
+    font-size: 14px;
+}
+
+.navbar .account .sign-up-form .sign-up .help-btn .disclaim {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.navbar .account .sign-up-form .sign-up .help-btn .disclaim a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.navbar .account .sign-up-register-btn {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.navbar .account .sign-up-register-btn .sign-up {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 78%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.navbar .account .sign-up-register-btn .sign-in {
+    background-color: white;
+    width: 78%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.navbar .account a {
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.navbar .account input[type=text] {
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .account input[type=email] {
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .account input[type=password] {
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .account input[type=number] {
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* ================ banner ================== */
+
+.banner {
+    height: 700px;
+    width: 100%;
+    background: transparent;
+}
+
+.banner .container {
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ======================= footer ========================== */
+
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMG/footer-bg.webp) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====================== footer-top ========================= */
+
+.footer-top {
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top .container .row .logo {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-top .container .row .logo img {
+    width: 100%;
+    filter: brightness(2);
+}
+
+.footer-top .container .row .footer-menu {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu .footer-sub-menu {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.footer-top .container .row .footer-menu .footer-sub-menu .head {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+    line-height: 2;
+}
+
+.footer-top .container .row .footer-menu .footer-sub-menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu .footer-sub-menu ul li {
+    padding-bottom: 20px;
+}
+
+.footer-top .container .row .footer-menu .footer-sub-menu ul li a {
+    color: white;
+    font-weight: normal;
+}
+
+.footer-top .container .row .footer-menu-end {
+    width: 25%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .social-menu {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .social-menu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .social-menu ul li a {
+    font-size: 28px;
+    color: white;
+}
+
+.footer-top .container .row .footer-menu-end .review-data {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .review-data .footer-rating {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .review-data .footer-rating p {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-top .container .row .footer-menu-end .review-data .footer-rating .rating {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.footer-top .container .row .footer-menu-end .review-data .footer-rating .rating i {
+    margin: 0 !important;
+    padding: 1px;
+}
+
+.footer-top .container .row .footer-menu-end .review-data p {
+    font-size: 18px;
+    color: white;
+}
+
+/* ======================= footer-bottom ======================== */
+
+.footer-bottom {
+    background-color: transparent;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-bottom .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+.footer-bottom .container .row ul {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom .container .row ul li a {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer-bottom .container .row p {
+    height: 50%;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+/* ================== banner-swiper ================= */
+
+.banner .swiper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.banner .swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+}
+
+.banner .swiper-slide .card-image {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(0.8);
+}
+
+.banner .swiper-slide .card-image figure {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.banner .swiper-slide .card-image figure img {
+    width: 100% !important;
+}
+
+.banner #men .card-image figure img {
+    transform: scale(1.2);
+}
+
+.banner .swiper-slide .card-content {
+    width: 80%;
+    height: 80%;
+}
+
+.banner #men .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner #men .card-content h1 {
+    font-size: 90px;
+    color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+}
+
+.banner #men .card-content p {
+    font-size: 35px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+big {
+    font-size: 50px !important;
+    color: rgb(255, 0, 0);
+}
+
+.banner #women .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner #women .card-content h1 {
+    font-size: 90px;
+    color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+}
+
+.banner #women .card-content p {
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner #footwear .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner #footwear .card-content h1 {
+    font-size: 75px;
+    color: transparent;
+    background-image: linear-gradient(rgba(207, 113, 113, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.banner #watches .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner #watches .card-image {
+    filter: brightness(0.8);
+}
+
+.banner #watches .card-content h1 {
+    width: 20%;
+    height: 100%;
+    font-size: 100px;
+    color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgb(133, 133, 133));
+    background-clip: text;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: -30px;
+}
+
+.banner #watches .card-content p {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    text-align: right;
+    width: 55%;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-right: -70px;
+    color: transparent;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgb(255, 213, 0));
+    background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner #watches .card-content p .big {
+    color: transparent;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgb(0, 0, 0));
+    background-clip: text;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.banner #bags .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: -100px;
+}
+
+.banner #bags .card-content h1 {
+    font-size: 110px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(255, 38, 0, 1), rgb(255, 255, 255));
+    background-clip: text;
+    text-align: center;
+
+}
+
+.banner #bags .card-content p {
+    font-size: 45px;
+    margin-top: 40px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(255, 38, 0, 1), rgb(255, 255, 255));
+    background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner #perfume .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner #perfume .card-content h1 {
+    font-size: 110px;
+    color: transparent;
+    background-image: linear-gradient(to right, rgba(255, 115, 0, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+    text-align: center;
+
+}
+
+/* .banner #perfume .card-content p {
+    font-size: 45px;
+    margin-top: 40px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(211, 109, 0, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
+} */
+
+/* ================= heading ================== */
+
+.heading {
+    height: 400px;
+    background: linear-gradient(to bottom, rgba(255, 230, 0, 0.9), rgba(179, 255, 203, 0.9)), url(../IMG/clothing-bg.webp) no-repeat;
+    background-size: cover;
+}
+
+.heading .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.heading .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading .container .row h2 {
+    text-align: center;
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(255, 0, 0, 0.9));
+    background-clip: text;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+}
+
+.heading .container .row p {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/* ================= product-layout =================== */
+
+.product-layout {
+    height: 1100px;
+}
+
+.product-layout .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-layout .container .row {
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.product-layout .container .row .product-card {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.product-layout .container .row .product-card:hover {
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+
+    .card-image img {
+        transform: scale(1.3) rotate(5deg) translateY(-8%);
+    }
+
+    .price {
+        font-size: 28px !important;
+    }
+
+    .hover-btn {
+        visibility: visible;
+        z-index: 15;
+        top: 45%;
+        opacity: 1;
+    }
+}
+
+.product-layout .container .row .product-card .card-image {
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+}
+
+.product-layout .container .row .product-card .card-image figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-layout .container .row .product-card .card-image figure img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.product-layout .container .row .product-card .card-content {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.product-layout .container .row .product-card .card-content h3 {
+    height: 35%;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.product-layout .container .row .product-card .card-content .rating {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.product-layout .container .row .product-card .card-content .price {
+    font-size: 24px;
+    padding-left: 10px;
+    transition: all 1s ease;
+    height: 35%;
+}
+
+.product-layout .container .row .product-card .hover-btn {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.product-layout .container .row .product-card .hover-btn .btn-cart {
+    width: 90%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.product-layout .container .row .product-card .hover-btn .btn-buy {
+    width: 90%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* ================== party ==================== */
+
+.party {
+    height: 300px;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.9), rgb(255, 255, 255));
+    overflow-x: hidden;
+}
+
+.party .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.party .row h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+    animation: zoom 5s linear infinite;
+}
+
+@keyframes zoom {
+    0% {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgb(255, 255, 255));
+        font-size: 40px;
+    }
+    100% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) , rgb(255, 255, 255));
+        font-size: 50px;
+    }
+}
+
+.party .row p {
+    font-size: 30px;
+    color: transparent;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgb(255, 255, 255));
+    background-clip: text;
+    animation: flow 10s linear infinite;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+@keyframes flow {
+    0% {
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+    }
+    100% {
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 100%;
+    }
+}
+
+/* ================= jeans ================= */
+
+.jeans {
+    height: 500px;
+    background-color: transparent;
+}
+
+.jeans .container {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.jeans .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jeans .container .row .jeans-banner {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.jeans .container .row .jeans-banner .card-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jeans .container .row .jeans-banner .card-image figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.jeans .container .row .jeans-banner .card-image figure img {
+    width: 100%;
+    transform: scale(1.3) translateY(-20%);
+}
+
+.jeans .container .row #women .card-image figure img {
+    transform: translateY(-20%) scale(1.5);
+}
+
+.jeans .container .row .jeans-banner .card-content {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 40px;
+}
+
+.jeans .container .row .jeans-banner .card-content h3 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.jeans .container .row .jeans-banner .card-content p {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* ================= accessories-banner =================== */
+
+.accessories-banner {
+    height: 300px;
+    background: url(../IMG/accessories-ban.webp) no-repeat;
+    background-size: 100%;
+}
+
+.accessories-banner .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.accessories-banner .row h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.accessories-banner .row p {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-transform: capitalize;
+
+}
+
+#accessories {
+    height: 550px;
+}
+
+#accessories .container .row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accessories .product-card {
+    height: 100%;
+    width: 32%;
+}
+
+/* ================== beauty ================== */
+
+.beauty {
+    height: 300px;
+    background-color: black;
+}
+
+.beauty .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beauty .row h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.beauty .row p {
+    font-size: 20px;
+    color: white;
+}
+
+#beauty {
+    height: 550px !important;
+}
+
+#beauty .container .row {
+    height: 100%;
+}
+
+.jewellery {
+    height: 200px;
+    background-color: black;
+}
+
+.jewellery .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jewellery .row h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.more {
+    height: 200px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.more .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.more .row h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.more .row .btn-view {
+    padding: 15px 22px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
